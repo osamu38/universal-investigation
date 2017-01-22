@@ -1,5 +1,4 @@
 import express from 'express';
-import path from 'path';
 import React from 'react';
 import { renderToString } from 'react-dom/server';
 import { match, RouterContext } from 'react-router';
@@ -8,7 +7,7 @@ import Root from './routes/Root';
 
 const app = express();
 
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static('./public'));
 
 app.get('*', (req, res) => {
   match({ routes, location: req.url }, (err, redirectLocation, props) => {
