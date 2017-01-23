@@ -6,16 +6,17 @@ This boilerplate is super simple universal architecture
 
 - Super Simple Universal Architecture
 - No [Redux](https://rackt.github.io/redux/)
-- No hot reloading
-- No error handling
+- No [hot reloading](https://github.com/gaearon/react-hot-loader)
+- No [lint](https://github.com/eslint/eslint)
+- No test
 
 ## Usage
 
 ```
-$ npm i && npm run build && npm start
+$ npm i && npm start
 ```
 
-Go to http://localhost:3000/.
+Go to `http://localhost:3000/`.
 
 ## Run
 

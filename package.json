@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www",
-    "build": "webpack"
+    "start": "node ./bin/www & webpack --colors --progress --watch",
+    "build": "webpack --colors --progress"
   },
   "dependencies": {
     "express": "~4.14.0",
